@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "Ahmad Syamil",
   nickname: "syamil",
   subTitle:
-    "IT specialist with two years' experience in both operations and software development who is driven and focused on the details.",
+    "IT specialist with three years' experience in both operations and software development who is driven and focused on the details.",
   resumeLink:
-    "https://drive.google.com/file/d/1JLAkgrfPyx4BcchQYdLZvFyQSNTz_L0M/view?usp=drive_link",
+    "https://drive.google.com/file/d/1pnSuJTQn-C8ZBiBTtRHCiuXuopcb1R4G/view?usp=drive_link",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/syamil24",
 };
@@ -285,6 +285,15 @@ const certifications = {
       alt_name: "Amigoscode",
       color_code: "#8C151599",
     },
+    {
+      title: "DevSecOps Foundation",
+      subtitle: "DevSecOps Foundation",
+      logo_path: "devsecops.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1748xKMG-8LGwqGhJ6n-XzPBG2sl5-d0t/view?usp=drive_link",
+      alt_name: "DevSecOps Foundation",
+      color_code: "#8C151599",
+    },
   ],
 };
 
@@ -293,7 +302,7 @@ const experience = {
   title: "Experience",
   subtitle: "My Career Journey",
   description:
-    "IT specialist with two years' experience in both operations and software development who is driven and focused on the details. Holds a degree in computer science and keeps up with new developments and business rends. Participate heavily in the sprint or project and deliver by the deadline. Excellent programming skills, as well as related IT support activities, production maintenance, and migration. competent in reating project-related papers, such as signoff, implementation plans, etc., and able to communicate change to the Change Advisory Board (CAB)",
+    "Experienced IT professional adept at supporting development, implementation, and operations of banking and investment applications, leveraging Spring Boot and microservices architecture. Skilled in providing user support, resolving issues promptly during testing phases. Expertise in disaster recovery, documentation, and CAB presentations. Strong background in security, resolving VAPT issues, conducting code reviews, and ensuring application integrity. Proven track record in building, maintaining, and scaling financial applications with millions of user base. Comprehensive understanding of IT infrastructure from the development to the operations end to end.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -301,11 +310,27 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Associate (Software Developer)",
+          company: "Permodalan Nasional Berhad",
+          company_url: "https://my.linkedin.com/company/pnbmy",
+          logo_path: "pnb-logo.jpeg",
+          duration: "Jan 2024 - Current",
+          location: "Kuala Lumpur",
+          description: [
+            "⚡Proactively resolved Vulnerability Assessment Penetration Testing (VAPT) issues across multiple applications, including those built on Java (Spring Boot Framework) and .NET platforms. Successfully addressed critical security concerns such as XSS, SQL Injection, Missing SSL Certificates, and inadequate security headers like CSP and HSTS. \n ",
+            "⚡Conducted rigorous code reviews to identify and rectify code smells flagged by the security team. Implemented robust solutions to address vulnerabilities, including SQL injection risks, deadlock and thread starvation possibilities, and inadvertent exposure of sensitive data in logs. Proactively mitigated potential security threats such as path traversal vulnerabilities, ensuring the integrity and security of the application codebase. \n ",
+            "⚡Demonstrated strong collaboration skills by coordinating with users and business stakeholders to identify and address issues promptly. Achieved high customer satisfaction by diligently resolving tickets and providing comprehensive feedback on fixes. Utilized a combination of code changes, SQL Server data patching, and Java log analysis to effectively troubleshoot and resolve reported bugs. \n ",
+            "⚡Developed a commission processing system, including generating 7 different types of reports to display commission entitlements. Designed and implemented complex business logic to handle complex reversal scenarios (e.g., multi-day or multi-month reversals) using Java Stream API. ",
+            "⚡Reduced API response times by 60% from an average of 10 seconds to 4 seconds in a Spring Boot application by streamlined business logic complexity, leading to faster execution and reduced processing overhead. Enhanced SQL queries to improve efficiency, resulting in quicker data retrieval and minimized database calls, reducing server load and improving overall system responsiveness. \n",
+          ],
+          color: "#0879bf",
+        },
+        {
           title: "Software Developer",
           company: "Maybank Berhad",
           company_url: "https://www.maybank.com/en/index.page",
-          logo_path: "legato_logo.png",
-          duration: "Jan 2022 - Current",
+          logo_path: "maybank-logo.png",
+          duration: "Jan 2022 - Dec 2023",
           location: "Kuala Lumpur",
           description: [
             "⚡ Actively contributes to the development, implementation, maintenance, and smooth operations of application systems and IT solutions, particularly focused on the M2U Biz App.  \n ",
@@ -327,7 +352,7 @@ const experience = {
           title: "GEES (Protege)",
           company: "PETRONAS BHD",
           company_url: "https://www.linkedin.com/company/petronas",
-          logo_path: "muffito_logo.png",
+          logo_path: "petronas-logo.png",
           duration: "July 2020 - Jan 2021",
           location: "Kuala Lumpur",
           description:
@@ -343,7 +368,7 @@ const experience = {
           title: "IT Support Internship",
           company: "Miba Academy.",
           company_url: "",
-          logo_path: "tiktok_logo.png",
+          logo_path: "miba-logo.png",
           duration: "Sep 2020 - May 2021",
           location: "Seremban",
           description:
